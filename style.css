@@ -1,0 +1,50 @@
+html {
+    font-size: 10px;
+}
+body {
+    font-family: Roboto;
+    margin: 0;  
+}
+nav {
+    background-color: aqua;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menu-item {
+    margin-right: 50px;
+}
+.menu-item:hover {
+    background-color: chartreuse;
+}
+.main-news {
+    display: flex;
+    background-color: darkolivegreen;
+    font-size: 1.5rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+main {
+    padding: 0px 20px 0px 20px;
+}
+.main-img {
+    width: 30%;
+    border: 2px solid #000;
+    height: 300px;
+}
+.weekly-news h2 {
+    font-size: 2rem; 
+    text-align: center;
+}
+.weekly-block {
+    display: flex;
+    justify-content: space-around;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+}
